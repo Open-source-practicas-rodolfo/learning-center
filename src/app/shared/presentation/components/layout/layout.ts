@@ -3,6 +3,7 @@ import { TranslatePipe } from '@ngx-translate/core';
 import { MatToolbar, MatToolbarRow } from '@angular/material/toolbar';
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { MatButton } from '@angular/material/button';
+import { MatDivider } from '@angular/material/list';
 
 @Component({
   imports: [
@@ -13,6 +14,7 @@ import { MatButton } from '@angular/material/button';
     RouterLink,
     RouterLinkActive,
     MatButton,
+    MatDivider,
   ],
   selector: 'app-layout',
   styleUrl: './layout.css',
