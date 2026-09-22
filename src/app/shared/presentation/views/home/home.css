@@ -1,0 +1,15 @@
+/* you can add global styles to this file
+ */
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, 'Helvetic Neue', sans-serif;
+}
+
+container-with-spacing {
+  margin: 20px;
+}
